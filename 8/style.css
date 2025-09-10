@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100%;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+
+aside {
+  background-color: aqua;
+  grid-column: 1;
+}
+
+nav {
+  background-color: bisque;
+  padding: 25px 50px;
+}
+
+article {
+  background-color: gray;
+  grid-column: 2;
+}
+
+footer {
+  background-color: rgb(6, 206, 6);
+  width: 100%;
+  min-height: 70px;
+  position: fixed;
+  bottom: 0;
+}
